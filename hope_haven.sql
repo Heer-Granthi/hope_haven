@@ -3,8 +3,6 @@
 -- Real Orphanages: Nanded District, Maharashtra
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS hope_haven;
-USE hope_haven;
 
 DROP TABLE IF EXISTS appointments;
 DROP TABLE IF EXISTS donation_requests;

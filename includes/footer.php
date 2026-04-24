@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>© <?= date('Y') ?> Hope Haven. Made with ❤️ for the children.</p>
+        <p>© 2024 Hope Haven. Made with ❤️ for the children.</p>
     </div>
 </footer>
 

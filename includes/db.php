@@ -2,6 +2,8 @@
 // ============================================
 // Database Configuration – Hope Haven
 // ============================================
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');      // Change to your MySQL username
@@ -9,7 +11,7 @@ define('DB_PASS', 'root');          // Change to your MySQL password
 define('DB_NAME', 'hope_haven');
 
 // Create connection
-$conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+$conn = mysqli_connect("sql204.infinityfree.com", "if0_41740381", "hopehaven123", "if0_41740381_hope_haven");
 
 // Check connection
 if (!$conn) {
